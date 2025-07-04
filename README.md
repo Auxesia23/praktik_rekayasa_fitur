@@ -34,3 +34,24 @@ Dataset terdiri dari gambar uang kertas Indonesia dengan pecahan 5, 10, 20, 50, 
 5. **Visualisasi**  
    - Visualisasi histogram dan HOG memperlihatkan perbedaan signifikan antar pecahan, baik dari sisi warna maupun tekstur.
 
+# Ekstraksi Fitur Uang Kertas
+
+## Cara Menjalankan Notebook
+
+1. **Pastikan sudah menginstall [uv](https://github.com/astral-sh/uv):**
+   ```sh
+   pip install uv
+   ```
+
+2. **Buat virtual environment dan Install dependensi dari pyproject.toml:**
+   ```sh
+   uv sync
+   ```
+
+3. **Buka dan jalankan `main.ipynb` di Jupyter Notebook.**
+
+---
+
+**Catatan:**  
+Pastikan folder `gambar_lira/` sudah berisi gambar sesuai struktur subfolder pecahan uang.
+
