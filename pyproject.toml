@@ -1,0 +1,14 @@
+[project]
+name = "praktik_rekayasa_fitur"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.1",
+    "opencv-python>=4.11.0.86",
+    "pandas>=2.3.0",
+    "scikit-image>=0.25.2",
+]
